@@ -9,7 +9,7 @@ rules:
   # sidecar injection controller
   - apiGroups: ["admissionregistration.k8s.io"]
     resources: ["mutatingwebhookconfigurations"]
-    verbs: ["get", "list", "watch", "patch"]
+    verbs: ["get", "list", "watch", "patch", "update"]
 
   # configuration validation webhook controller
   - apiGroups: ["admissionregistration.k8s.io"]
