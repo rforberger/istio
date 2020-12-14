@@ -19,7 +19,7 @@ pilot:
   # Resources for a small pilot install
   resources:
     requests:
-      cpu: 500m
+      cpu: 128m
       memory: 2048Mi
 
   env: {}
@@ -319,7 +319,7 @@ global:
         cpu: 100m
         memory: 128Mi
       limits:
-        cpu: 2000m
+        cpu: 64m
         memory: 1024Mi
 
     # Default port for Pilot agent health checks. A value of 0 will disable health checking.
