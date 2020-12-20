@@ -19,10 +19,10 @@ pilot:
   # Resources for a small pilot install
   resources:
     requests:
-      cpu: 128m
+      cpu: 64m
       memory: 2048Mi
     limits:
-      cpu: 128m
+      cpu: 64m
       memory: 2048Mi
       
 
