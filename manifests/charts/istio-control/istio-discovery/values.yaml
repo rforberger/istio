@@ -21,6 +21,10 @@ pilot:
     requests:
       cpu: 128m
       memory: 2048Mi
+    limits:
+      cpu: 128m
+      memory: 2048Mi
+      
 
   env: {}
 
