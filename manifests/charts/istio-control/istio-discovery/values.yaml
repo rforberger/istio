@@ -197,11 +197,11 @@ global:
   # block in the relevant section below and setting the desired resources values.
   defaultResources:
     requests:
-       cpu: 10m
-       memory: 128Mi
-     limits:
-       cpu: 75m
-       memory: 256Mi
+      cpu: 10m
+      memory: 128Mi
+    limits:
+      cpu: 75m
+      memory: 256Mi
 
   # Used to locate istiod.
   istioNamespace: istio-system
