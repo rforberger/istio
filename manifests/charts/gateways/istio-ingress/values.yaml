@@ -51,7 +51,7 @@ gateways:
 
     loadBalancerIP: ""
     loadBalancerSourceRanges: []
-    serviceAnnotations: { external-dns.alpha.kubernetes.io/hostname: "forberger-online.de." }
+    serviceAnnotations: { external-dns.alpha.kubernetes.io/hostname: "argocd.forberger-online.de.", external-dns.alpha.kubernetes.io/hostname: "sensu.forberger-online.de.", external-dns.alpha.kubernetes.io/hostname: "kiali.forberger-online.de." }
 
     # Enable cross-cluster access using SNI matching
     zvpn:
